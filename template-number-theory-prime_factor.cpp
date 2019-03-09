@@ -1,4 +1,4 @@
-//bigmod ,reverse number
+//bigmod ,reverse number,prime factor
 
 #include<bits/stdc++.h>
 using namespace std ;
