@@ -31,6 +31,24 @@ int sum (int a,int b)
 {
     return a+b;
 }
+vector< int>v;
+ int primefact(int n)
+{
+    for(int i=2;i<=sqrt(n);i++)
+    {
+        if(n%i==0)
+        {
+            v.push_back(i);
+            n=n/i;
+            i=1;
+
+        }
+    }
+     v.push_back(n);
+}
+
+
+
 int main()
 {
 
