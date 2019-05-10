@@ -1,5 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
+typedef long long ll ;
+const int N = 10e+5;
+ll v[N];
 
 vector<int>v;
 bool checkprime(int n)
