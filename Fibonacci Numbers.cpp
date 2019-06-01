@@ -6,7 +6,11 @@
 
 //print n th number Fibonacci Number 
 // Time : O(log n)
+/*formula : If n is even then k = n/2:
+F(n) = [2*F(k-1) + F(k)]*F(k)
 
+If n is odd then k = (n + 1)/2
+F(n) = F(k)*F(k) + F(k-1)*F(k-1) */
 
 #include<bits/stdc++.h>
 using namespace std ;
