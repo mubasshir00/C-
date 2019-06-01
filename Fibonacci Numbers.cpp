@@ -1,5 +1,26 @@
 //print all Fibonacci Numbers in N range 
 
+#include<bits/stdc++.h>
+using namespace std ;
+void printFib(int n)
+{
+    int F1=0 ,F2=1;
+    if(n<1)
+        return ;
+    for(int i=1;i<=n;i++)
+    {
+        cout<<F2<<" ";
+        int next = F1 + F2 ;
+        F1 = F2 ;
+        F2 = next ;
+    }
+}
+int main()
+{
+    printFib(20);
+    return  0 ;
+}
+
 
 
 
